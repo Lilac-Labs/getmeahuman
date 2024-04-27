@@ -16,7 +16,7 @@ import { greetingMessages } from './lib/system-content.js';
 import transferCall from './functions/transferCall.js';
 config();
 
-const { default: OrderService } = await import(`./lib/${process.env.RESTAURANT}/order-service.js`);
+const { default: OrderService } = await import(`./lib/pear/order-service.js`);
 
 // if --test flag is passed, then use timestamped console logs
 if (process.argv.includes('--test')) {

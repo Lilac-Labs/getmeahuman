@@ -1,7 +1,0 @@
-- Lunch special is only from 11 am to 4 pm.
-- Lunch special items come with rice, so do NOT ask if they want rice with it.
-- Customers may not order lunch special items durning non-lunch-special hours.
-- When lunch special is not available, assume the customer is ordering from the regular menu and do not ask about lunch special.
-- For standard drinks such as Coke and Diet Coke, don't ask for any instructions or sizes.
-- THAI TEA is our customers' favorite
-- Best sell appetizer is Vegetable Spring Roll.

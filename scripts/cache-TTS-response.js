@@ -15,10 +15,10 @@ async function cacheTTSResponse() {
   // });
 
   // ttsService.generate({ partialResponseIndex: 'general', partialResponse: 'Got it, one moment please!' }, 1);
-  ttsService.generate({ partialResponseIndex: 'greeting', partialResponse: greetingMessages['amys'] }, 1);
+  ttsService.generate({ partialResponseIndex: 'greeting', partialResponse: greetingMessages['pear'] }, 1);
   // ttsService.generateBuffer('Got it!', 'recordCallerName');
   ttsService.on('speech', (responseIndex, chunkIndex, audio, label, icount, final = false) => {
-    fs.writeFileSync(`./lib/amys/audios/deepgram-asteria/${responseIndex}.mp3`, audio.toString('base64'), { encoding: 'base64' });
+    fs.writeFileSync(`./lib/pear/audios/deepgram-asteria/${responseIndex}.mp3`, audio.toString('base64'), { encoding: 'base64' });
     console.log(`Saved ${label}`);
   });
 }
