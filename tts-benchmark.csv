@@ -1,0 +1,154 @@
+uuid,service,size,latency,firstArrive,text,chunkIndex
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Elevenlabs,109950,1666,1666,229,
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Whisper,287040,2646,2646,229,
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Elevenlabs Stream,10920,1785,1785,,0
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Elevenlabs Stream,10567,683,683,,1
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Elevenlabs Stream,10494,20,20,,2
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Elevenlabs Stream,10751,21,21,,3
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Elevenlabs Stream,10706,16,16,,4
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Elevenlabs Stream,10543,14,14,,5
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Elevenlabs Stream,10751,31,31,,6
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Elevenlabs Stream,10622,10,10,,7
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Elevenlabs Stream,10627,16,16,,8
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Elevenlabs Stream,10751,581,581,,9
+11ff763f-60a5-4828-b3ce-ad03b644078a,Elevenlabs,108836,3171,3171,229,
+57043c31-bd77-4116-a2b3-6b0c7da7a983,Elevenlabs Stream,0,3185,1785,229,
+11ff763f-60a5-4828-b3ce-ad03b644078a,Whisper,282240,2806,2806,229,
+5ecd6613-c84a-43a5-a8f2-d374ff1a39f8,Elevenlabs,104377,1761,1761,229,
+5ecd6613-c84a-43a5-a8f2-d374ff1a39f8,Whisper,279840,3227,3227,229,
+db5f99b4-2864-4ce8-8f1c-664e72f41ad1,Elevenlabs,105863,1716,1716,229,
+db5f99b4-2864-4ce8-8f1c-664e72f41ad1,Whisper,284160,2900,2900,229,
+8ba23be3-1838-4a52-83a5-5e5f1a6a0134,Elevenlabs,115151,1648,1648,229,
+8ba23be3-1838-4a52-83a5-5e5f1a6a0134,Whisper,288960,2364,2364,229,
+a3d9322b-96f6-4a5d-9182-998a1abd31e2,Elevenlabs,106607,1521,1521,229,
+a3d9322b-96f6-4a5d-9182-998a1abd31e2,Whisper,287520,3022,3022,229,
+e0e59d2d-6a27-43e0-bc70-e516ab0a0bad,Elevenlabs,99548,1519,1519,229,
+e0e59d2d-6a27-43e0-bc70-e516ab0a0bad,Whisper,288000,2347,2347,229,
+05619e48-b5b1-4cb8-9cfa-2dd4dce32c73,Elevenlabs,105863,2327,2327,229,
+05619e48-b5b1-4cb8-9cfa-2dd4dce32c73,Whisper,287520,3090,3090,229,
+76601a21-b8a4-4c35-bfb0-a3c5c7f5ed24,Elevenlabs,109207,1536,1536,229,
+76601a21-b8a4-4c35-bfb0-a3c5c7f5ed24,Whisper,285120,3131,3131,229,
+9fa35779-1d48-4733-b6be-c1b58b10d8c8,Elevenlabs,102520,1481,1481,229,
+9fa35779-1d48-4733-b6be-c1b58b10d8c8,Whisper,284640,3151,3151,229,
+7da092ac-2234-4008-bc05-59954e741cd1,Elevenlabs,115151,1571,1571,229,
+7da092ac-2234-4008-bc05-59954e741cd1,Whisper,288960,1952,1952,229,
+ca4430b9-a031-4ad8-a4fb-809b4d685edb,Elevenlabs,110693,1512,1512,229,
+ca4430b9-a031-4ad8-a4fb-809b4d685edb,Whisper,287520,2389,2389,229,
+07a334aa-01c1-4cbe-9e2e-f5429228692a,Elevenlabs Stream,10792,690,690,,0
+745afe23-34f0-4ae8-8b04-dfa0a912ec84,Elevenlabs Stream,10732,709,709,,0
+736d139d-9339-4e63-ae83-d9bf3264e85b,Elevenlabs Stream,10865,713,713,,0
+9277211f-d6d5-4c69-b057-867b6d313370,Elevenlabs Stream,10732,710,710,,0
+16e076a9-bafc-4622-8e99-185a285b8bad,Elevenlabs Stream,10865,742,742,,0
+c05dce45-55b7-4cb6-91c2-31f4d5d407bc,Elevenlabs Stream,10732,745,745,,0
+6b073e16-b929-4979-aa9a-426d9b670bde,Elevenlabs Stream,10816,750,750,,0
+56770fef-0a24-46f7-b0ca-6dcdffab710d,Elevenlabs Stream,10732,806,806,,0
+ed1bb219-dc4f-44af-ab00-ea1d4f889014,Elevenlabs Stream,10792,839,839,,0
+10bcccb8-67c1-49db-a62d-e998e91b72b3,Elevenlabs Stream,10732,1203,1203,,0
+9277211f-d6d5-4c69-b057-867b6d313370,Elevenlabs Stream,10622,583,583,,1
+9277211f-d6d5-4c69-b057-867b6d313370,Elevenlabs Stream,10627,8,8,,2
+07a334aa-01c1-4cbe-9e2e-f5429228692a,Elevenlabs Stream,10562,618,618,,1
+07a334aa-01c1-4cbe-9e2e-f5429228692a,Elevenlabs Stream,10755,2,2,,2
+9277211f-d6d5-4c69-b057-867b6d313370,Elevenlabs Stream,10884,10,10,,3
+07a334aa-01c1-4cbe-9e2e-f5429228692a,Elevenlabs Stream,10707,6,6,,3
+9277211f-d6d5-4c69-b057-867b6d313370,Elevenlabs Stream,10488,8,8,,4
+07a334aa-01c1-4cbe-9e2e-f5429228692a,Elevenlabs Stream,10538,11,11,,4
+9277211f-d6d5-4c69-b057-867b6d313370,Elevenlabs Stream,10628,8,8,,5
+9277211f-d6d5-4c69-b057-867b6d313370,Elevenlabs Stream,10884,8,8,,6
+07a334aa-01c1-4cbe-9e2e-f5429228692a,Elevenlabs Stream,10711,12,12,,5
+736d139d-9339-4e63-ae83-d9bf3264e85b,Elevenlabs Stream,10488,634,634,,1
+07a334aa-01c1-4cbe-9e2e-f5429228692a,Elevenlabs Stream,10800,10,10,,6
+9277211f-d6d5-4c69-b057-867b6d313370,Elevenlabs Stream,10489,14,14,,7
+16e076a9-bafc-4622-8e99-185a285b8bad,Elevenlabs Stream,10488,638,638,,1
+745afe23-34f0-4ae8-8b04-dfa0a912ec84,Elevenlabs Stream,10621,644,644,,1
+07a334aa-01c1-4cbe-9e2e-f5429228692a,Elevenlabs Stream,10489,8,8,,7
+9277211f-d6d5-4c69-b057-867b6d313370,Elevenlabs Stream,10755,8,8,,8
+16e076a9-bafc-4622-8e99-185a285b8bad,Elevenlabs Stream,10628,11,11,,2
+736d139d-9339-4e63-ae83-d9bf3264e85b,Elevenlabs Stream,10628,17,17,,2
+6b073e16-b929-4979-aa9a-426d9b670bde,Elevenlabs Stream,10538,613,613,,1
+745afe23-34f0-4ae8-8b04-dfa0a912ec84,Elevenlabs Stream,10756,11,11,,2
+07a334aa-01c1-4cbe-9e2e-f5429228692a,Elevenlabs Stream,10627,4,4,,8
+9277211f-d6d5-4c69-b057-867b6d313370,Elevenlabs Stream,10623,6,6,,9
+16e076a9-bafc-4622-8e99-185a285b8bad,Elevenlabs Stream,10884,9,9,,3
+745afe23-34f0-4ae8-8b04-dfa0a912ec84,Elevenlabs Stream,10756,9,9,,3
+6b073e16-b929-4979-aa9a-426d9b670bde,Elevenlabs Stream,10627,9,9,,2
+07a334aa-01c1-4cbe-9e2e-f5429228692a,Elevenlabs Stream,10751,8,8,,9
+736d139d-9339-4e63-ae83-d9bf3264e85b,Elevenlabs Stream,10884,14,14,,3
+745afe23-34f0-4ae8-8b04-dfa0a912ec84,Elevenlabs Stream,10489,10,10,,4
+16e076a9-bafc-4622-8e99-185a285b8bad,Elevenlabs Stream,10488,10,10,,4
+6b073e16-b929-4979-aa9a-426d9b670bde,Elevenlabs Stream,10750,11,11,,3
+56770fef-0a24-46f7-b0ca-6dcdffab710d,Elevenlabs Stream,10621,584,584,,1
+56770fef-0a24-46f7-b0ca-6dcdffab710d,Elevenlabs Stream,10756,15,15,,2
+736d139d-9339-4e63-ae83-d9bf3264e85b,Elevenlabs Stream,10488,29,29,,4
+745afe23-34f0-4ae8-8b04-dfa0a912ec84,Elevenlabs Stream,10755,24,24,,5
+16e076a9-bafc-4622-8e99-185a285b8bad,Elevenlabs Stream,10811,24,24,,5
+56770fef-0a24-46f7-b0ca-6dcdffab710d,Elevenlabs Stream,10623,2,2,,3
+745afe23-34f0-4ae8-8b04-dfa0a912ec84,Elevenlabs Stream,10756,2,2,,6
+6b073e16-b929-4979-aa9a-426d9b670bde,Elevenlabs Stream,10623,25,25,,4
+16e076a9-bafc-4622-8e99-185a285b8bad,Elevenlabs Stream,10568,4,4,,6
+745afe23-34f0-4ae8-8b04-dfa0a912ec84,Elevenlabs Stream,10489,6,6,,7
+6b073e16-b929-4979-aa9a-426d9b670bde,Elevenlabs Stream,10627,6,6,,5
+736d139d-9339-4e63-ae83-d9bf3264e85b,Elevenlabs Stream,10756,8,8,,5
+16e076a9-bafc-4622-8e99-185a285b8bad,Elevenlabs Stream,10622,7,7,,7
+745afe23-34f0-4ae8-8b04-dfa0a912ec84,Elevenlabs Stream,10627,5,5,,8
+56770fef-0a24-46f7-b0ca-6dcdffab710d,Elevenlabs Stream,10622,11,11,,4
+16e076a9-bafc-4622-8e99-185a285b8bad,Elevenlabs Stream,10627,4,4,,8
+745afe23-34f0-4ae8-8b04-dfa0a912ec84,Elevenlabs Stream,10751,4,4,,9
+16e076a9-bafc-4622-8e99-185a285b8bad,Elevenlabs Stream,10884,6,6,,9
+56770fef-0a24-46f7-b0ca-6dcdffab710d,Elevenlabs Stream,10627,8,8,,5
+c05dce45-55b7-4cb6-91c2-31f4d5d407bc,Elevenlabs Stream,10622,682,682,,1
+736d139d-9339-4e63-ae83-d9bf3264e85b,Elevenlabs Stream,10756,14,14,,6
+ed1bb219-dc4f-44af-ab00-ea1d4f889014,Elevenlabs Stream,10561,591,591,,1
+56770fef-0a24-46f7-b0ca-6dcdffab710d,Elevenlabs Stream,10751,8,8,,6
+c05dce45-55b7-4cb6-91c2-31f4d5d407bc,Elevenlabs Stream,10627,9,9,,2
+ed1bb219-dc4f-44af-ab00-ea1d4f889014,Elevenlabs Stream,10628,29,29,,2
+c05dce45-55b7-4cb6-91c2-31f4d5d407bc,Elevenlabs Stream,10751,26,26,,3
+56770fef-0a24-46f7-b0ca-6dcdffab710d,Elevenlabs Stream,10622,27,27,,7
+56770fef-0a24-46f7-b0ca-6dcdffab710d,Elevenlabs Stream,10627,0,0,,8
+ed1bb219-dc4f-44af-ab00-ea1d4f889014,Elevenlabs Stream,10751,1,1,,3
+c05dce45-55b7-4cb6-91c2-31f4d5d407bc,Elevenlabs Stream,10622,0,0,,4
+736d139d-9339-4e63-ae83-d9bf3264e85b,Elevenlabs Stream,10488,34,34,,7
+c05dce45-55b7-4cb6-91c2-31f4d5d407bc,Elevenlabs Stream,10627,1,1,,5
+ed1bb219-dc4f-44af-ab00-ea1d4f889014,Elevenlabs Stream,10622,1,1,,4
+736d139d-9339-4e63-ae83-d9bf3264e85b,Elevenlabs Stream,10756,8,8,,8
+ed1bb219-dc4f-44af-ab00-ea1d4f889014,Elevenlabs Stream,10627,8,8,,5
+c05dce45-55b7-4cb6-91c2-31f4d5d407bc,Elevenlabs Stream,10751,10,10,,6
+ed1bb219-dc4f-44af-ab00-ea1d4f889014,Elevenlabs Stream,10751,13,13,,6
+c05dce45-55b7-4cb6-91c2-31f4d5d407bc,Elevenlabs Stream,10755,11,11,,7
+736d139d-9339-4e63-ae83-d9bf3264e85b,Elevenlabs Stream,10623,17,17,,9
+c05dce45-55b7-4cb6-91c2-31f4d5d407bc,Elevenlabs Stream,10494,4,4,,8
+ed1bb219-dc4f-44af-ab00-ea1d4f889014,Elevenlabs Stream,10622,7,7,,7
+ed1bb219-dc4f-44af-ab00-ea1d4f889014,Elevenlabs Stream,10711,7,7,,8
+c05dce45-55b7-4cb6-91c2-31f4d5d407bc,Elevenlabs Stream,10751,15,15,,9
+ed1bb219-dc4f-44af-ab00-ea1d4f889014,Elevenlabs Stream,10667,11,11,,9
+c05dce45-55b7-4cb6-91c2-31f4d5d407bc,Elevenlabs Stream,10622,6,6,,10
+10bcccb8-67c1-49db-a62d-e998e91b72b3,Elevenlabs Stream,10622,381,381,,1
+10bcccb8-67c1-49db-a62d-e998e91b72b3,Elevenlabs Stream,10627,15,15,,2
+10bcccb8-67c1-49db-a62d-e998e91b72b3,Elevenlabs Stream,10884,9,9,,3
+10bcccb8-67c1-49db-a62d-e998e91b72b3,Elevenlabs Stream,10489,17,17,,4
+10bcccb8-67c1-49db-a62d-e998e91b72b3,Elevenlabs Stream,10627,2,2,,5
+10bcccb8-67c1-49db-a62d-e998e91b72b3,Elevenlabs Stream,10751,9,9,,6
+9277211f-d6d5-4c69-b057-867b6d313370,Elevenlabs Stream,0,1661,710,229,
+07a334aa-01c1-4cbe-9e2e-f5429228692a,Elevenlabs Stream,0,1680,690,229,
+745afe23-34f0-4ae8-8b04-dfa0a912ec84,Elevenlabs Stream,0,1761,709,229,
+56770fef-0a24-46f7-b0ca-6dcdffab710d,Elevenlabs Stream,0,1769,806,229,
+6b073e16-b929-4979-aa9a-426d9b670bde,Elevenlabs Stream,10750,356,356,,6
+16e076a9-bafc-4622-8e99-185a285b8bad,Elevenlabs Stream,0,1804,742,229,
+6b073e16-b929-4979-aa9a-426d9b670bde,Elevenlabs Stream,10707,6,6,,7
+6b073e16-b929-4979-aa9a-426d9b670bde,Elevenlabs Stream,10543,6,6,,8
+c05dce45-55b7-4cb6-91c2-31f4d5d407bc,Elevenlabs Stream,0,1813,745,229,
+736d139d-9339-4e63-ae83-d9bf3264e85b,Elevenlabs Stream,0,1817,713,229,
+ed1bb219-dc4f-44af-ab00-ea1d4f889014,Elevenlabs Stream,0,1839,839,229,
+6b073e16-b929-4979-aa9a-426d9b670bde,Elevenlabs Stream,0,2081,750,229,
+10bcccb8-67c1-49db-a62d-e998e91b72b3,Elevenlabs Stream,10622,483,483,,7
+10bcccb8-67c1-49db-a62d-e998e91b72b3,Elevenlabs Stream,10627,18,18,,8
+10bcccb8-67c1-49db-a62d-e998e91b72b3,Elevenlabs Stream,10751,33,33,,9
+77bc5221-b2bc-4c40-9cfc-a12212009bcd,Deepgram,91951,577,577,229,
+00ca403d-042f-4aca-893e-4fba93a92d01,Deepgram,91951,554,554,229,
+32277140-f0cb-43ab-ad0b-c14e07ad418d,Deepgram,91951,344,344,229,
+9f03818a-0088-44c0-be65-fcf8d109cf92,Deepgram,91951,267,267,229,
+b88c0c7f-5753-4f19-819e-aa640b2ba43e,Deepgram,91951,334,334,229,
+100fda25-bc27-42fd-b133-73f57b979343,Deepgram,91951,270,270,229,
+33215500-5bea-4b36-959d-79c65bfd5b91,Deepgram,91951,286,286,229,
+6aec79c4-9bd6-490d-bbb7-312ba75c61a9,Deepgram,91951,267,267,229,
+a784109b-bdd2-4397-b0a1-4b87b73957e1,Deepgram,91951,254,254,229,
+c167795c-f710-4c6c-bdfa-0d662905f1fa,Deepgram,91951,270,270,229,
