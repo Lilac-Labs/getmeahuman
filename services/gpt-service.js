@@ -200,6 +200,13 @@ export default class GptService extends EventEmitter {
     console.log(chalk.green(`${this.callSid}: GPT -> Interaction: ${interactionCount}, user context length: ${this.userContext.length}`));
 
   }
+  // async completion(text, interactionCount, role = 'user') {
+  //   this.emit('gptreply', {
+  //     partialResponseIndex: this.partialResponseIndex,
+  //     partialResponse: 'Got it, one moment please!',
+  //     cachedFilename: 'general'
+  //   }, interactionCount);
+  // }
 }
 
 // module.exports = { GptService };

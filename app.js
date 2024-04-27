@@ -14,7 +14,7 @@ import { v4 } from 'uuid';
 import { greetingMessages } from './lib/system-content.js';
 config();
 
-const { default: OrderService } = await import(`./lib/${process.env.RESTAURANT}/order-service.js`);
+const { default: OrderService } = await import(`./lib/pear/order-service.js`);
 
 // if --test flag is passed, then use timestamped console logs
 if (process.argv.includes('--test')) {
@@ -40,8 +40,7 @@ When a request is received, it responds with an XML structure
 that includes a <Connect> element pointing to a WebSocket URL.
 This setup is likely for initiating a stream connection from a service (e.g., Twilio)
 that supports real-time audio streaming. */
-app.post('/incoming', (req, res) => {
-  res.status(200);
+app.post('/incoming', (req, res) => {  res.status(200);
   res.type('text/xml');
   //TODO use VoiceResponse in 'twilio' lib. https://www.twilio.com/docs/voice/twiml/stream#bi-directional-media-streams
   res.end(`
