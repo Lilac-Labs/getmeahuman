@@ -175,7 +175,7 @@ export default class GptService extends EventEmitter {
         // We use partialResponse to provide a chunk for TTS
         partialResponse += content;
         // Emit last partial response and add complete response to userContext
-        if (content.trim().slice(-1) === '•' || finishReason === 'stop') {
+        if (['!', '?', '.'].includes(content.trim().slice(-1)) || finishReason === 'stop') {
           const gptReply = {
             partialResponseIndex: this.partialResponseIndex,
             partialResponse: partialResponse.toLowerCase()

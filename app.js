@@ -2,6 +2,7 @@ import { config } from 'dotenv';
 import chalk from 'chalk';
 import express from 'express';
 import ExpressWs from 'express-ws';
+import twilio from 'twilio';
 
 import { GptService, StreamService, TranscriptionService, TextToSpeechService, MessageService, LogService } from './services/index.js';
 import { Buffer } from 'node:buffer';
@@ -12,6 +13,7 @@ import { DynamoDBDocumentClient } from '@aws-sdk/lib-dynamodb';
 import { fromEnv } from '@aws-sdk/credential-providers';
 import { v4 } from 'uuid';
 import { greetingMessages } from './lib/system-content.js';
+import transferCall from './functions/transferCall.js';
 config();
 
 const { default: OrderService } = await import(`./lib/${process.env.RESTAURANT}/order-service.js`);
@@ -40,41 +42,78 @@ When a request is received, it responds with an XML structure
 that includes a <Connect> element pointing to a WebSocket URL.
 This setup is likely for initiating a stream connection from a service (e.g., Twilio)
 that supports real-time audio streaming. */
-app.post('/incoming', (req, res) => {
+app.post('/join', async (req, res) => {
+  const response = new twilio.twiml.VoiceResponse();
+  const dial = response.dial();
+  dial.conference('test', {
+    startConferenceOnEnter: false,  // Start when the first participant joins
+    endConferenceOnExit: true     // Do not end when the last participant leaves
+  });
+
   res.status(200);
-  res.type('text/xml');
-  //TODO use VoiceResponse in 'twilio' lib. https://www.twilio.com/docs/voice/twiml/stream#bi-directional-media-streams
-  res.end(`
-  <Response>
-    <Connect>
-      <Stream url="wss://${process.env.SERVER}/connection" >
-        <Parameter name="caller" value="${req.body.Caller}" />
-      </Stream>
-    </Connect>
-  </Response>
-  `);
+  res.set('Content-Type', 'text/xml');
+  res.send(response.toString());
+
+
+
+  if (req.body.Caller !== process.env.AGENT_NUMBER) {
+    // send a post request to the agent endpoint
+    // to initiate a call to the agent
+    const accountSid = process.env.TWILIO_ACCOUNT_SID;
+    const authToken = process.env.TWILIO_AUTH_TOKEN;
+
+    const client = twilio(accountSid, authToken);
+
+    // client.conferences.list({ friendlyName: 'test', status: 'in-progress' })
+    //   .then(conferences => {
+    //     conferences.forEach(conference => {
+    //       console.log(conference.sid);  // List all matching Conference SIDs
+    //     });
+    //   });
+    const conferenceSid = 'CF17492e363a94ded0c891d679d14def0f';
+    client.conferences(conferenceSid)
+      .participants
+      .list()
+      .then(participants => {
+        participants.forEach(participant => {
+          client.conferences(conferenceSid)
+            .participants(participant.callSid)
+            .update({ status: 'ended' })  // This disconnects the participant
+            .then(() => console.log(`Disconnected participant ${participant.callSid}`))
+            .catch(error => console.error(`Error disconnecting participant: ${error}`));
+        });
+      })
+      .catch(error => console.error(`Error fetching participants: ${error}`));
+
+    client.calls
+      .create({
+        url: `https://${process.env.SERVER}/agent`,
+        to: process.env.APP_NUMBER,
+        from: process.env.AGENT_NUMBER
+      })
+      .then(call => console.log(call.sid));
+
+    // const call = await transferCall(null, { callSid: req.body.CallSid });
+    // console.log(call);
+  }
 });
 
-// import WebSocket from 'ws';
-// const clients = new Map();
-// function broadcastToUpdates(message) {
-//   // clients.forEach(client => {
-//   //   if (client.readyState === WebSocket.OPEN) {
-//   //     client.send(message);
-//   //   }
-//   // });
-// }
+app.post('/agent', async (req, res) => {
+  const response = new twilio.twiml.VoiceResponse();
+  const connect = response.connect();
+  const stream = connect.stream({
+    url: `wss://${process.env.SERVER}/connection`,
+  });
 
-// app.ws('/updates', (ws) => {
-//   const uuid = v4();
-//   clients.set(uuid, { timestamp: Date.now(), ws });
-//   console.log(chalk.redBright('New client connected for updates.', JSON.stringify(ws)));
+  stream.parameter({
+    name: 'caller',
+    value: req.body.Caller,
+  });
 
-//   ws.on('close', () => {
-//     clients.delete(uuid);
-//     console.log(chalk.redBright('Client disconnected.'));
-//   });
-// });
+  res.status(200);
+  res.set('Content-Type', 'text/xml');
+  res.send(response.toString());
+});
 
 /* WebSocket Connection Handling:
 */
