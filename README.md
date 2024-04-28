@@ -1,4 +1,7 @@
-# Call GPT: Generative AI Phone Calling
+# Talk to a human
+
+
+# Setup 
 
 Wouldn't it be neat if you could build an app that allowed you to chat with ChatGPT on the phone?
 
@@ -6,8 +9,7 @@ Twilio gives you a superpower called [Media Streams](https://twilio.com/media-st
 
 This app serves as a demo exploring three services:
 
-- [Deepgram](https://deepgram.com/) for Speech to Text
-- [elevenlabs](https://elevenlabs.io) for Text to Speech
+- [Deepgram](https://deepgram.com/) for Speech to Text and Text to Speech
 - [OpenAI](https://openai.com) for GPT prompt completion
 
 These service combine to create a voice application that is remarkably better at transcribing, understanding, and speaking than traditional IVR systems.
